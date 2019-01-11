@@ -1,8 +1,11 @@
 server:
   port: 8001
 spring:
+  profiles:
+    active:
+      name: dev
   application:
-    name: USER-PROVIDER
+    name: plat-provider
 eureka:
   client:
     service-url:
